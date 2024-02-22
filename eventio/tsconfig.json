@@ -3,6 +3,9 @@
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"] // Add the path alias here
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -20,5 +23,5 @@
     "tsBuildInfoFile": ".tsbuildinfo"
   },
   "exclude": ["node_modules", "**/*.e2e.ts", "cypress"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"] // Update the include pattern to include the correct path
 }

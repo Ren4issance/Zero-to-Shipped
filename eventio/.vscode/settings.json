@@ -9,7 +9,7 @@
     ".gitignore": true,
     ".prettierignore": true,
     "next-env.d.ts": true,
-    "tsconfig.json": true,
+    "tsconfig.json": false,
     "README.md": true
   }
 }
