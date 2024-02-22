@@ -2,7 +2,14 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
-  "jest.autoRun": "off"
+  "jest.autoRun": "off",
+  "files.exclude": {
+    ".gitignore": true,
+    ".prettierignore": true,
+    "next-env.d.ts": true,
+    "tsconfig.json": true,
+    "README.md": true
+  }
 }
